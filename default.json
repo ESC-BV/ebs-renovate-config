@@ -1,0 +1,12 @@
+{
+  "extends": ["config:recommended"],
+  "semanticCommits": "enabled",
+  "prConcurrentLimit": 5,
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "enabled": false
+    }
+  ]
+}
